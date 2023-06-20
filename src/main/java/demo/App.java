@@ -7,11 +7,11 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        TestCases tests = new TestCases(); // Initialize your test class
+        NestedFrames tests = new NestedFrames(); // Initialize your test class
 
         //TODO: call your test case functions one after other here
 
-        tests.testCase01();
+        tests.frames();
 
         //END Tests
 
